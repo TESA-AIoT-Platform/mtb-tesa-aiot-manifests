@@ -1,0 +1,16 @@
+<super-manifest>
+  <board-manifest-list>
+  </board-manifest-list>
+  
+  <app-manifest-list>
+    <app-manifest>
+      <uri>https://raw.githubusercontent.com/TESA-AIoT-Platform/mtb-tesa-aiot-manifests/master/tesa-aiot-level01-manifest.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://raw.githubusercontent.com/TESA-AIoT-Platform/mtb-tesa-aiot-manifests/master/tesa-aiot-level02-manifest.xml</uri>
+    </app-manifest>
+    <app-manifest>
+      <uri>https://raw.githubusercontent.com/TESA-AIoT-Platform/mtb-tesa-aiot-manifests/master/tesa-aiot-level03-manifest.xml</uri>
+    </app-manifest>
+   </app-manifest-list>
+</super-manifest>
