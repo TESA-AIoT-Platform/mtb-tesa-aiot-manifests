@@ -1,0 +1,186 @@
+<apps version="2.0">
+    <app keywords="starter,template,empty,blank,mtb-flow">
+        <name>PSOC Edge Empty Application</name>
+        <id>mtb-example-psoc-edge-empty-app</id>
+        <category>Getting Started</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-empty-app</uri>
+        <description><![CDATA[This is a minimal starter application template for PSOC&#8482; Edge MCU devices.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>1.5.0 release</num>
+                <commit>release-v1.5.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="starter,template,empty,blank,mtb-flow,hello-world">
+        <name>PSOC Edge Hello World</name>
+        <id>mtb-example-psoc-edge-hal-hello-world</id>
+        <category>Getting Started</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-hello-world</uri>
+        <description><![CDATA[This code example demonstrates a simple UART communication by printing the "Hello world" message on a terminal and blinking an LED via a timer resource using Arm&#174; Cortex&#174; M33 CPU on PSOC&#8482; Edge MCU. The code example is based on HAL (Hardware Abstraction Layer) libraries.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>1.5.0 release</num>
+                <commit>release-v1.5.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="edge-protect bootloader, mtb-flow">
+        <name>PSOC Edge Protect Bootloader</name>
+        <id>mtb-example-edge-protect-bootloader</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-edge-protect-bootloader</uri>
+        <description><![CDATA[This is Edge Protect Bootloader code example for PSOC&#8482; Edge E84 PSVP.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.2.1</num>
+                <commit>release-v1.2.1</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="wdt, hal, mtb-flow">
+        <name>PSOC Edge Watchdog Timer using HAL</name>
+        <id>mtb-example-psoc-edge-hal-wdt</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-wdt</uri>
+        <description><![CDATA[This example explains how to set up a Watchdog Timer (WDT) using the WDT HAL resource.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.4.0</num>
+                <commit>release-v1.4.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="rtc, hal, mtb-flow">
+        <name>PSOC Edge Real-Time Clock basics using HAL</name>
+        <id>mtb-example-psoc-edge-hal-rtc-basics</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-rtc-basics</uri>
+        <description><![CDATA[This example demonstrates the usage of the real-time clock (RTC) in Infineon MCU. It shows how to get and set the time in the RTC using the RTC HAL API. The example also supports the daylight saving time (DST) feature. A UART interface is used to input the time and configure the RTC.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.4.0</num>
+                <commit>release-v1.4.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="ipc, hal, mtb-flow">
+        <name>PSOC Edge IPC queues using HAL</name>
+        <id>mtb-example-psoc-edge-hal-ipc-queue</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-ipc-queue</uri>
+        <description><![CDATA[This example demonstrates how to use the inter-processor communication (IPC) HAL driver to implement a message queues in PSOC&#8482; Edge MCU. The queues are used to send messages between CPUs.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.5.0</num>
+                <commit>release-v1.5.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="pwm, timer, hal, mtb-flow">
+        <name>PSOC Edge PWM timer using HAL</name>
+        <id>mtb-example-psoc-edge-hal-pwm-timer</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-pwm-timer</uri>
+        <description><![CDATA[This code example generates an interrupt every second with the TIMER driver, and toggles the user LED when a timer interrupt is generated.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.4.0</num>
+                <commit>release-v1.4.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="pwm, dt, hal, mtb-flow">
+        <name>PSOC Edge PWM Dead Time using HAL</name>
+        <id>mtb-example-psoc-edge-hal-pwm-dt</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-pwm-dt</uri>
+        <description><![CDATA[This code example shows TCPWM dead-time mode function. PWM line and PWM COMPL pins output the 1-kHz frequency wave and 1-kHz frequency wave with PWM leftalign 250 us in PWM dead-time mode.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.4.0</num>
+                <commit>release-v1.4.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="pwm, hal, mtb-flow">
+        <name>PSOC Edge PWM Square Wave using HAL</name>
+        <id>mtb-example-psoc-edge-hal-pwm-square-wave</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-pwm-square-wave</uri>
+        <description><![CDATA[This code example generates a square wave using the PWM driver. An LED connected to the PWM output pin blinks at 2 Hz.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.4.0</num>
+                <commit>release-v1.4.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="gpio, hal, mtb-flow">
+        <name>PSOC Edge GPIO interrupt using HAL</name>
+        <id>mtb-example-psoc-edge-hal-gpio-interrupt</id>
+        <category>Peripherals</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-hal-gpio-interrupt</uri>
+        <description><![CDATA[This code example demonstrates the use of a GPIO configured as an input pin to generate interrupts on PSOC&#8482; Edge MCU. The GPIO signal interrupts the CPU and executes a user-defined interrupt service routine (ISR). The GPIO interrupt acts as a wakeup source to wake the CPU from deepsleep.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.4.0</num>
+                <commit>release-v1.4.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="wifi, https, mtb-flow">
+        <name>PSOC Edge HTTPS server</name>
+        <id>mtb-example-psoc-edge-wifi-https-server</id>
+        <category>Wi-Fi</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-wifi-https-server</uri>
+        <description><![CDATA[This code example demonstrates the implementation of an HTTPS (Hypertext Transfer Protocol Secure) Server using PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip.
+        It employs the HTTPS Server middleware library, which takes care of all the underlying socket connections with the HTTPS client. In this example, the HTTPS Server establishes a secure connection with an HTTPS Client through an SSL (Secure Sockets Layer) handshake. After the SSL handshake completes successfully, the HTTPS Client can make GET, POST, and PUT requests with the server.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.0.0</num>
+                <commit>release-v1.0.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="wifi, https, mtb-flow">
+        <name>PSOC Edge HTTPS client</name>
+        <id>mtb-example-psoc-edge-wifi-https-client</id>
+        <category>Wi-Fi</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-example-psoc-edge-wifi-https-client</uri>
+        <description><![CDATA[This code example demonstrates the implementation of an HTTPS (Hypertext Transfer Protocol Secure) client using PSOC&#8482; Edge MCU with AIROC&#8482; CYW55513 Wi-Fi & Bluetooth&#174; combo chip.
+        It employs the HTTPS Client middleware library, which takes care of all the underlying socket connections with the HTTPS Server. In this example, the HTTPS Client establishes a secure connection with an HTTPS Server through an SSL (Secure Sockets Layer)  handshake. After the SSL handshake completes successfully, the HTTPS Client can make GET, POST, and PUT requests with the server.]]></description>
+        <req_capabilities>cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.0.0</num>
+                <commit>release-v1.0.0</commit>
+            </version>
+        </versions>
+    </app>
+    <app keywords="mtb-flow, tester, wifi, wlan, tool, manufacturing">
+        <name>PSOC Edge Tester - Wi-Fi Bluetooth Console</name>
+        <id>mtb-psoc-edge-wifi-bluetooth-tester</id>
+        <category>Wi-Fi</category>
+        <uri>techpack:730915c5-9ac7-4a33-ac02-a4bb904ff518/apps/mtb-psoc-edge-wifi-bluetooth-tester</uri>
+        <description><![CDATA[This application integrates command console library including Wi-Fi iPerf and Bluetooth&#174; Low Energy functionality. Using this application, the user can characterize the Wi-Fi/Bluetooth&#174; Low Energy functionality and performance.]]></description>
+        <req_capabilities>wifi cat1d</req_capabilities>
+        <versions>
+            <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
+                <num>release-v1.0.0</num>
+                <commit>release-v1.0.0</commit>
+            </version>
+        </versions>
+    </app>  
+</apps>
