@@ -8,8 +8,8 @@
         <req_capabilities>cat1d</req_capabilities>
         <versions>
             <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version="bsp_gen4">
-                <num>1.5.0 release</num>
-                <commit>release-v1.5.0</commit>
+                <num>Latest 1.X release</num>
+                <commit>master</commit>
             </version>
         </versions>
     </app>
